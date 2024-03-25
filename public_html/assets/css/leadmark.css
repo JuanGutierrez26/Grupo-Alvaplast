@@ -11439,10 +11439,10 @@ textarea.form-control {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -11454,20 +11454,72 @@ textarea.form-control {
           justify-content: center;
 }
 
-.header .overlay .subtitle {
-  font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (1200 - 320)));
-  font-weight: 400;
-  margin-bottom: 0;
-  letter-spacing: 8px;
-  word-spacing: 10px;
-  text-align: center;
-  opacity: .8;
-}
 
 .header .overlay .title {
   font-size: calc(30px + (70 - 30) * ((100vw - 320px) / (1200 - 320)));
   font-weight: bold;
+  padding-left: 8rem;
 }
+
+.header .overlay p{
+  padding-left: 10rem;
+  width: 45rem; 
+  margin-top: -3rem;
+}
+
+.overlay img{
+  padding-left: 10rem;
+  width: 45rem;
+}
+
+.overlay .botones{
+  margin-left: 10rem;
+}
+
+@media (max-width: 1106px) {
+  .header .overlay p{
+    width: 45rem;
+    padding-left: 5rem;
+  }
+  .overlay .botones{
+    margin-left: 5rem;
+  }
+  .overlay img{
+    width: 45rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .header .overlay {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+  }
+  .header .overlay p{
+    width: 30rem;
+    padding-left: 0rem;
+  }
+  .overlay .botones{
+    margin-left: 0rem;
+  }
+  .overlay img{
+    width: 30rem;
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 556px) {
+  .header .overlay p{
+    display: none;
+  }
+  .overlay img{
+    width: 16rem;
+  }
+}
+
 
 .header .shape svg {
   position: absolute;
@@ -11797,4 +11849,15 @@ textarea.form-control {
 
 .section:nth-child(even) .container .row .col-md-6 {
   color: white;
+}
+
+/* Header */
+.btn-mismo-tamano {
+  width: 150px; 
+  height: 40px; 
+}
+
+.portfolio-item .borde-azul{
+  border: #10567d 3px solid;
+   border-radius: 30px;
 }
