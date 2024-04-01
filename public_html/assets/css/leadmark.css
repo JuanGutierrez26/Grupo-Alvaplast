@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
+
 *,
 *::before,
 *::after {
@@ -19,7 +20,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-
 /* Spinner */
 .spinner-wrapper{
   color: #ff6e42  ;
@@ -35,6 +35,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   justify-content: center;
   transition: all 0.2s;
 }
+
 
 body {
   margin: 0;
@@ -11650,7 +11651,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/Pie-pagina.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11814,16 +11815,8 @@ textarea.form-control {
   Esto es para cambiar los colores
 */
 
-.section:nth-child(even) .section-title {
-  color: white;
-}
-
-.section:nth-child(even) .section-subtitle {
-  color: white;
-}
-
-.section:nth-child(even) .container .row .col-md-6 {
-  color: white;
+.card-body{
+  color: #000;
 }
 
 /* Header */
@@ -11835,4 +11828,10 @@ textarea.form-control {
 .portfolio-item .borde-azul{
   border: #10567d 3px solid;
    border-radius: 30px;
+}
+
+@media (max-height: 645px) {
+  .desaparecer{
+    display: none;
+  }
 }

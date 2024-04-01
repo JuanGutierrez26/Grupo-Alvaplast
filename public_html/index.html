@@ -16,14 +16,14 @@
     <div class="spinner-wrapper">
         <div class="spinner-border" style="width: 3.5rem; height: 3.5rem;" role="status">
             <span class="sr-only">Loading...</span>
-          </div>
-      </div>
+        </div>
+    </div>
 
     <!-- page Navigation -->
-    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img loading="lazy" src="assets/imgs/AlvaPlast2.png" alt="" style="width: 5rem;">
+                <img src="assets/imgs/AlvaPlast2.png" alt="" style="width: 5rem;">
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,12 +55,12 @@
     <!-- End Of Second Navigation -->
 
     <!-- Page Header -->
-    <header class="header">
+    <header id="inicio" class="header">
         <div class="overlay">
-            <img loading="lazy" src="assets/imgs/alvaplast2.png" alt="">
-            <p>Empresa dedicada a distribuir productos descartables y bolsas de todas las medidas, contamos con precios al por mayor y menor.</p>
+            <img loading="lazy" src="assets/imgs/alvaplast2.png" alt="" class="logo">
+            <p class="desaparecer">Empresa dedicada a distribuir productos descartables y bolsas de todas las medidas, contamos con precios al por mayor y menor.</p>
             <div class="botones">
-                <button id="contactButton" class="btn btn-success rounded btn-mismo-tamano" onmouseover="changeText()" onmouseout="restoreText()">
+                <button id="contactButton" class="btn btn-success rounded btn-mismo-tamano boton" onmouseover="changeText()" onmouseout="restoreText()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                         <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
                     </svg> 
@@ -79,7 +79,7 @@
     <!-- End Of Page Header -->
 
     <!-- Service Section -->
-    <section  id="service" class="section pt-0">
+    <section  id="service" class="section pt-0" style="background-color: white; color: black;">
         <div class="container">
             <br><br><br><br>
             <h6 class="section-title text-center">Nuestro Servicios</h6>
@@ -119,7 +119,7 @@
     <!-- End OF Service Section -->
 
     <!-- About Section -->
-    <section class="section" id="about">
+    <section class="section" id="about" style="background-color: #10547f; color: white;">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
@@ -159,8 +159,8 @@
     </section>
     <!-- End OF About Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section portfolio-section">
+    <!-- Productos Section -->
+    <section id="portfolio" class="section portfolio-section" style="background-color: white; color: black;">
         <div class="container">
             <h6 class="section-title text-center">Nuestros Productos</h6>
             <h6 class="section-subtitle mb-5 text-center">Algunos de los mejores productos que tenemos</h6>
@@ -283,7 +283,7 @@
                             
                 </div> 
                 <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item text-center" style="height: 239px; width: 249.984px;">
+                    <div class="portfolio-item text-center" style="height: 239px; width: 349.984px;">
                         <img loading="lazy" src="assets/imgs/bolsa1.png" class="img-fluid  borde-azul" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/bolsa1.png"></a>
@@ -297,7 +297,7 @@
                     </div>
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item text-center" style="height: 239px; width: 249.984px;">
+                    <div class="portfolio-item text-center" style="height: 239px; width: 349.984px;">
                         <img loading="lazy" src="assets/imgs/bolsa2.png" class="img-fluid  borde-azul" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/bolsa2.png"></a>
@@ -311,7 +311,7 @@
                     </div>                                                     
                 </div> 
                 <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item text-center" style="height: 239px; width: 249.984px;">
+                    <div class="portfolio-item text-center" style="height: 239px; width: 349.984px;">
                         <img loading="lazy" src="assets/imgs/bolsa3.png" class="img-fluid  borde-azul" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/bolsa3.png"></a>
@@ -325,7 +325,7 @@
                     </div>                                                    
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item text-center" style="height: 239px; width: 249.984px;">
+                    <div class="portfolio-item text-center" style="height: 239px; width: 349.984px;">
                         <img loading="lazy" src="assets/imgs/bolsa4.png" class="img-fluid  borde-azul" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/bolsa4.png"></a>
@@ -339,7 +339,7 @@
                     </div>                                                      
                 </div> 
                 <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item text-center" style="height: 239px; width: 249.984px;">
+                    <div class="portfolio-item text-center" style="height: 239px; width: 349.984px;">
                         <img loading="lazy" src="assets/imgs/bolsa5.png" class="img-fluid  borde-azul" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
                         <div class="content-holder">
                             <a class="img-popup" href="assets/imgs/bolsa5.png"></a>
@@ -355,10 +355,10 @@
             </div>   
         </div>            
     </section>
-    <!-- End of portfolio section -->
+    <!-- End of Productos section -->
 
-    <!-- Blog Section -->
-    <section class="section" id="blog">
+    <!-- Novedades Section -->
+    <section class="section" id="blog" style="background-color: #10547f; color: white;">
         <div class="container">
             <h6 class="section-title mb-0 text-center">Ultimos Productos</h6>
             <h6 class="section-subtitle mb-5 text-center">Productos nuevos para nuestros clientes</h6>
@@ -384,7 +384,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card border-0 mb-4 h-100">
- style="height: 239px; width: 249.984px;"                        <img loading="lazy" src="assets/imgs/bolsas-nuevo2.jpeg" alt="" class="card-img-top w-100">
+                        <img loading="lazy" src="assets/imgs/bolsas-nuevo2.jpeg" alt="" class="card-img-top w-100">
                         <div class="card-body">                         
                             <h6 class="card-title">Ultimas Bolsas Agregados</h6>
                             <p class="text-justify">Nuevos bolsas de alta calidad y biodegradables han sido agregados a nuestro extenso catálogo. Descubre nuestra última incorporación y únete a nosotros en nuestro compromiso con la sostenibilidad y la excelencia en cada producto</p>
@@ -394,56 +394,59 @@
             </div>
         </div>
     </section>
-    <!-- End of Blog Section -->
+    <!-- End of Novedades Section -->
 
     <!-- Testmonial Section -->
-    <section class="section" id="testmonial">
+    <section class="section" id="testmonial" style="background-color: white; color: black;">
         <div class="container">
-            <h6 class="section-title text-center mb-0">Certificados de Calidad</h6>
+            <h6 class="section-title text-center mb-0" style="color: black; ">Certificados de Calidad</h6>
             <h6 class="section-subtitle mb-5 text-center">Por SGS</h6>
             <div class="row">
-                <div class="col-md-4 my-3 my-md-0">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media align-items-center mb-3 text-center">
-                                <img loading="lazy" class="mr-3" src="assets/imgs/certificado1.png" alt="">
-                                <div class="media-body">
-                                    <h6 class="mt-1 mb-0">Las BPM</h6>
-                                    <small class="text-muted mb-0">Buenas Practicas de Manufactura</small>     
+                <div class="row">
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card h-100 d-flex flex-column">
+                            <div class="card-body flex-fill">
+                                <div class="media align-items-center mb-3 text-center">
+                                    <img loading="lazy" class="mr-3" src="assets/imgs/certificado1.png" alt="">
+                                    <div class="media-body">
+                                        <h6 class="mt-1 mb-0">Las BPM</h6>
+                                        <small class="text-muted mb-0">Buenas Practicas de Manufactura</small>     
+                                    </div>
                                 </div>
+                                <p class="mb-0">Son los principios básicos y practicas de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento,transporte y distribución del producto para consumo humano.</p>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card h-100 d-flex flex-column">
+                            <div class="card-body flex-fill">
+                                <div class="media align-items-center mb-3">
+                                    <img loading="lazy" class="mr-3" src="assets/imgs/certificado2.png" alt="">
+                                    <div class="media-body">
+                                        <h6 class="mt-1 mb-0">El HACCP o APPCC</h6>
+                                        <small class="text-muted mb-0"> Análisis de Peligros y Puntos Críticos de Control</small>      
+                                    </div>
+                                </div>
+                                <p class="mb-0">Es un enfoque sistemático para la identificación de peligros, la evaluación de riesgos y el control. Puede aplicarse en una gran variedad de ámbitos en los que se entra en contacto con alimentos o agua que va destinada al consumo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card h-100 d-flex flex-column">
+                            <div class="card-body flex-fill">
+                                <div class="media align-items-center mb-3">
+                                    <img loading="lazy" class="mr-3" src="assets/imgs/certificado3.png" alt="">
+                                    <div class="media-body">
+                                        <h6 class="mt-1 mb-0">Iso 9001</h6>
+                                        <small class="text-muted mb-0">Organización Internacional para la Estandarización</small>        
+                                    </div>
+                                </div>
+                                <p class="mb-0">Es una norma de sistemas de gestión de la calidad (SGC) que se centra en todos los elementos de administración de calidad con los que una organización debe contar para tener un sistema efectivo que le permita administrar y mejorar sus productos y servicios.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 my-3 my-md-0">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media align-items-center mb-3">
-                                <img loading="lazy" class="mr-3" src="assets/imgs/certificado2.png" alt="">
-                                <div class="media-body">
-                                    <h6 class="mt-1 mb-0">El HACCP o APPCC</h6>
-                                    <small class="text-muted mb-0">Insurance Agent</small>      
-                                </div>
-                            </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3 my-md-0">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="media align-items-center mb-3">
-                                <img loading="lazy" class="mr-3" src="assets/imgs/certificado3.png" alt="">
-                                <div class="media-body">
-                                    <h6 class="mt-1 mb-0">Iso 9001</h6>
-                                    <small class="text-muted mb-0">Residential Appraiser</small>        
-                                </div>
-                            </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -531,4 +534,3 @@
     </script>
 
 </body>
-
