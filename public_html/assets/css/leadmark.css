@@ -11835,3 +11835,9 @@ textarea.form-control {
     display: none;
   }
 }
+
+@media (max-width: 324px) {
+  .filters .filtro{
+    display: none;
+  }
+}
