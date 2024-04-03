@@ -245,12 +245,7 @@ select {
   word-wrap: normal;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -273,12 +268,7 @@ input[type="checkbox"] {
   padding: 0;
 }
 
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
-}
+
 
 textarea {
   overflow: auto;
@@ -315,7 +305,6 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -11403,13 +11392,20 @@ textarea.form-control {
   overflow: hidden;
 }
 
+.header-productos {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+}
+
 .header .overlay {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11838,6 +11834,50 @@ textarea.form-control {
 
 @media (max-width: 324px) {
   .filters .filtro{
+    display: none;
+  }
+}
+
+.mapa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapa-tamaño{
+  width: 1110px;
+  height: 600px;
+}
+
+@media(max-width:1199px) {
+  .mapa-tamaño{
+    width: 930px;
+    height: 500px;
+  }
+}
+@media(max-width:991px) {
+  .mapa-tamaño{
+    width: 690 px;
+  }
+}
+@media(max-width:767px) {
+  .mapa-tamaño{
+    width: 510px;
+  }
+}
+@media(max-width:543px) {
+  .mapa{
+    display: none;
+  }
+}
+
+@media(max-width:543px) {
+  .desparecer-ubicacion{
+    display: none;
+  }
+}
+@media(max-width:354px) {
+  .botones{
     display: none;
   }
 }
