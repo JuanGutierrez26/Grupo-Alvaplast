@@ -11881,3 +11881,11 @@ textarea.form-control {
     display: none;
   }
 }
+
+.col-product{
+  padding: 1rem;
+}
+
+.cont-product{
+  margin-bottom: 5rem;
+}
